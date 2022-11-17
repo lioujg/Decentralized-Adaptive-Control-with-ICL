@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 
 	double dt = 50.0;
 	ros::Rate loop_rate(dt);
-	nh.setParam("/start",true);
+	nh.setParam("/start",false);
 	trajectory_msgs::MultiDOFJointTrajectoryPoint traj;
 
 	//planning
